@@ -31,7 +31,7 @@ class DraftWriter:
             return clean_output
         except:
             return output
-        
+    
     def launcher(self,input):
         system = "Create Summarize of the review from the customer and give the rating of the review Rating is between 1 to 5, then create a draft for the review in Json Format without explanation."
         instruction = "Clearly mention the rating of the review and summarize the review.\
